@@ -22,7 +22,8 @@ describe Board do
 
   context "#grid" do
     it "returns the grid" do
-      expect()
+      board = Board.new(grid:"yay!")
+      expect(board.grid).to eq "yay!"
     end
   end
 end
