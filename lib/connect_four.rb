@@ -1,3 +1,5 @@
+require_relative "core_extensions"
+
 class Board
   attr_reader :grid
   def initialize(input = {})
